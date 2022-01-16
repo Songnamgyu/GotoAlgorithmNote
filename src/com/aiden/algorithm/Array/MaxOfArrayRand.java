@@ -21,8 +21,9 @@ public class MaxOfArrayRand {
 
         System.out.println("가장 큰 키를 구합시다");
         System.out.println("사람의 수를 입력해주세요");
-        int num = stdIn.nextInt();
-
+        //int num = stdIn.nextInt();
+        int num = 1+(int)Math.ceil(rand.nextInt(11));
+        System.out.println("사람 수 : " + num);
         int[] height = new int[num];
         for(int i = 0; i < num; i++) {
             height[i] = 100 + rand.nextInt(90);
