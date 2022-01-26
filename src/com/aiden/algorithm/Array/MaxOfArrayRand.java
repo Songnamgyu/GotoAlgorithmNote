@@ -25,7 +25,7 @@ public class MaxOfArrayRand {
 
         int[] height = new int[num];
         for(int i = 0; i < num; i++) {
-            height[i] = 100 + rand.nextInt(90);
+            height[i] = 100  + rand.nextInt(90);
             System.out.println("heigth["+i+"] : " + height[i]);
         }
         System.out.println("가장 큰 키는 : " + maxOf(height));
