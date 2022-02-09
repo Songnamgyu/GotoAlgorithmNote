@@ -88,7 +88,7 @@ public class YMD_02_11 {
         YMD_02_11 d2 = date.before(n);
         System.out.printf("%d의 앞에날짜는 %d년%d월%d일 입니다\n",n, d2.y,d2.m,d2.d);
 
-
+//여기까지
 
     }
 }
